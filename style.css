@@ -656,6 +656,17 @@ a {
   color: #575757 !important;
 }
 
+.quote {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.quote-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .container {
   max-width: 1000px;
 }
@@ -773,20 +784,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: #c14810;
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: white !important;
 }
 
 .btn-atomic-tangerine {
-  background: #f3976c;
+  background: #c14810;
   color: #ffffff !important;
 }
 
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
+  background: #6d2809 !important;
   color: #ffffff !important;
 }
 
@@ -799,11 +810,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-  color: #f3976c !important;
+  color: #c14810 !important;
 }
 
 .ltc-atomic-tangerine:hover {
-  color: #c27956 !important;
+  color: #c14810 !important;
 }
 
 .icon-dark-slate-blue {
