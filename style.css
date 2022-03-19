@@ -517,13 +517,15 @@ button {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  opacity: 0;
+  opacity: 1;
   z-index: 500;
   transition: all 0.3s ease-in-out;
+  background: #c14810;
 }
 
 .scrollToTop span {
   margin-top: 6px;
+  color: white;
 }
 
 .showScrollTop {
