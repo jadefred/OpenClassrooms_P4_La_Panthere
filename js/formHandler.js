@@ -6,10 +6,15 @@ $(function () {
         e.preventDefault();
         var i = (function (t) {
             var e = "./includes/" + t.attr("id") + ".php";
-            t.attr("template-path") &&
-              (e =
-                t.attr("template-path") + "/includes/" + t.attr("id") + ".php");
-            return e;
+            return (
+              t.attr("template-path") &&
+                (e =
+                  t.attr("template-path") +
+                  "/includes/" +
+                  t.attr("id") +
+                  ".php"),
+              e
+            );
           })(t),
           s = {};
         t.find("input, textarea, option:selected").each(function (t) {
