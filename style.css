@@ -801,6 +801,11 @@ h4 {
   color: #ffffff !important;
 }
 
+.btn-atomic-tangerine:focus {
+  background: #6d2809;
+  color: #ffffff !important;
+}
+
 .btn-atomic-tangerine:hover {
   background: #6d2809 !important;
   color: #ffffff !important;
